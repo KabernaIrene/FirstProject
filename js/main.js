@@ -2,16 +2,12 @@ const photosArr = []
 photosArr.length = 25
 const descriptionsArr = ['Глобус', "Сурфінг", "Іллюзія", "Космічний корабль", "Dartwaider", "Військовий", "Космічний корабель у космосі", "Космічний костюм", "Хоррор", "Підбитий боінг", "Фантастика", "Жінка-воїн", "Авто", "Двигун ксмічного корабля", "Апокаліпсис", "Військова", "Захистники", "ДЕПО", "Пришелець", "ранок під час війни", "Зупинка майбутнього", "сутичка в космосі", "Світ машин", "Один на один", "Космічне майбутнє"]
 
-console.log(descriptionsArr);
-
-
 for(let i = 1; i<=photosArr.length; i++) {
     photosArr[i-1] = photosObj (i)
 }
 
 
 console.log(photosArr);
-
 
 
 function photosObj (i) {
@@ -70,6 +66,6 @@ function nameComment (){
     return name;
 }
 
-
+export {photosObj, photosArr,  randomCount}
 
 
